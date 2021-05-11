@@ -1,0 +1,128 @@
+*{
+	box-sizing:border-box; 
+}
+
+	body{
+		background-color: gold;
+		margin: 30px;
+		color: black;
+		
+	}
+	.main{
+		border:2px solid black;
+		padding: 25px;
+		
+		border-radius: 3rem;
+		
+		background-color: white;
+		
+	}
+	
+	h1{
+		text-align: center;
+		text-decoration: underline;
+
+	}
+	
+	
+	.rólam{
+		border:2px solid black;
+		font-size: 14px;
+		max-width: 3rem;
+		margin: 1rem;
+		border-radius: 1rem;	
+	}
+	.gomb{
+		
+		display: inline-block;
+		padding: 10px;
+		margin: 5px;
+		background-color: white;
+		color: black;
+		border: 2px solid black;
+		border-radius: 3rem;
+		user-select: none;
+	}
+
+	.gomb_jobbra{
+		float: right;
+		display: inline-block;
+		border: 2px solid black;
+		padding: 10px;
+		margin: 5px;
+		background-color: white;
+		color: black;
+		border-radius: 3rem;
+
+	} 
+	/*.clearfix{
+		content: "";
+		clear: both;
+		display: table;
+	}*/
+
+	.gomb:hover{
+		cursor: pointer;
+		background-color:gold;
+		
+	}
+	.gomb_jobbra:hover{
+		cursor: pointer;
+		background-color: gold;
+	}
+
+	.fejléc{
+		grid-column: 1/-1;
+		border: 2px solid black;
+		flex-wrap: wrap; 
+		background-color: white;
+		border-radius: 3rem;
+	}
+	.h1{
+		font-size: 4rem;
+
+	}
+	
+	 /*.floatbalra{
+		float: left;
+		height: 10rem;*/
+	}
+
+	/*.td12{
+		float: left;
+	}*/
+
+	/*.en1{
+		
+		border:2px solid black;
+		border-radius: 2rem;*/
+
+	}
+	.kep{
+		/*display: block;*/
+		border:2px solid black;
+		border-radius: 2rem;
+	}
+
+	.vic1{
+		font-size:20px;
+	}
+	.tan1{
+		/*font size:35px;*/
+		border:2px solid black;
+		padding:5px;
+		border-radius: 2rem;
+	}
+	
+	.tan2{
+		font-size:30px;
+		/*border:2px solid black;
+		
+		border-radius: 2rem; */
+		padding:5px;
+	}
+	.hobbik{
+		padding:20px;
+		margin: 20px;
+		font-size:35px;
+	}
